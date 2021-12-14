@@ -1,0 +1,25 @@
+body {
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,241,1) 100%);
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    margin:0 1rem;
+}
+
+.navbar ul li a{
+    color:#fff;
+    font-size: 1rem;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    color:var(--orange);
+}
